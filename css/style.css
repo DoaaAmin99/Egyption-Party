@@ -1,0 +1,191 @@
+#home{
+    background-image: url(../images/events-heavenly-header.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    color: #fff;
+}
+.bgOverlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+#home .bgOverlay i{
+    align-self: flex-start;
+    position: absolute;
+    /* left: 200px; */
+    font-size:30px;
+    cursor:pointer;
+}
+#home .bgOverlay h2{
+    font-size: 60px;
+}
+
+
+#sideBar{
+    /* align-items: flex-start; */
+    
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 99999;
+    background-color: #414658;
+    padding-top: 50px;
+}
+.sideBar-inner{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    
+}
+.sideBar-inner a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    padding: 15px 30px ;
+    transition: all 0.3s;
+}
+.sideBar-inner a:hover,
+.sideBar-inner i:hover
+{
+    color: rgba(214, 46, 51, 0.4);
+}
+.sideBar-inner i{
+    font-size:26px;
+    cursor:pointer;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    padding-top: 10px;
+
+}
+
+
+#details {
+    margin: 0px auto;
+    width: 50%;
+
+}
+#details h3 {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+}
+#details div {
+    padding: 10px;
+    background-color: #ccc;
+    font-size: 14px;
+    display: none;
+}
+
+#duration{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    color: #fff;
+}
+
+.time{
+    padding: 50px;
+    border: 1px solid #fff;
+}
+
+#contact .contact-head h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#contact .contact-head p{
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+#contact .contact-info h3{
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+#contact .contact-info p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+#contact .icons {
+    margin-top: 50px;
+}
+
+
+#contact .icons p {
+    margin-bottom: 35px;
+}
+
+#contact i {
+    margin-right: 20px;
+    color: #777;
+}
+
+#contact .red {
+    color: #D62E33 !important;
+}
+
+
+#contact .contact-info .icon-social {
+    margin-top: 50px;
+    color: #777;
+
+}
+
+#contact .contact-info .icon-social i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#contact .contact-info .icon-social i:hover {
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+
+#contact form input,
+#contact form textarea {
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+#contact form textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+#contact form button {
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase
+}
+
+#char {
+    font-size: 20px;
+    color: #D62E33;
+}
